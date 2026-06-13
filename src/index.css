@@ -1,0 +1,31 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; background: #F0F2F5; color: #0F172A; }
+:root {
+  --bg: #F0F2F5;
+  --surface: #FFFFFF;
+  --surface2: #F8FAFC;
+  --primary: #1B2A4A;
+  --primary-mid: #243659;
+  --primary-btn: #2563EB;
+  --primary-btn-hover: #1D4ED8;
+  --success: #16A34A;
+  --success-lt: #DCFCE7;
+  --danger: #DC2626;
+  --danger-lt: #FEE2E2;
+  --warning: #D97706;
+  --warning-lt: #FEF3C7;
+  --info: #0891B2;
+  --info-lt: #CFFAFE;
+  --purple: #7C3AED;
+  --purple-lt: #EDE9FE;
+  --text: #0F172A;
+  --text-sec: #475569;
+  --text-hint: #94A3B8;
+  --border: #E2E8F0;
+}
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F1F5F9; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
